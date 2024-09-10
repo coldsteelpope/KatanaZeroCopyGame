@@ -1,0 +1,401 @@
+#pragma once
+
+
+#define PURE = 0
+#define WINCX 800
+#define WINCY 600
+#define VK_MAX 0XFF
+
+#define PI 3.141592f
+
+#define OBJ_DEAD 0
+#define OBJ_NO_EVENT 1
+#define OBJ_EVENT_REWIND 2
+
+#define MOON_FCX 524
+#define MOON_FCY 524
+
+
+enum SKILL_EFFECT_SEQUENCE
+{
+	ENTRANCE,
+	WAITING,
+	LEAVE,
+	SKILL_EFFECT_SEQUENCE_END
+};
+
+enum PLAYER_THUNDER_BREATHING_MOTION
+{
+	PLAYER_IDLE_TO_CROUCH,
+	PLAYER_CROUCH,
+	PLAYER_SCRIPT,
+	PLAYER_ATTACK_BEFORE, // 이떄 다시 원래대로 돌리기
+	PLAYER_ATTACK, // 이때 이동
+	PLAYER_FINAL_ATTACK,
+	PLAYER_THUNDER_BREATHING_MOTION_END
+};
+
+
+enum BOSS_HEAD_STATUS
+{
+	BOSS_HEAD_LEFT,
+	BOSS_HEAD_RIGHT,
+	BOSS_HEAD_STATE_END
+};
+
+enum GERNADE_STATE
+{
+	GENRADE_THROW_STATE,
+	GERNADE_READY_STATE,
+	GERNADE_BOMB_STATE,
+	GERNADE_STATE_END
+};
+
+enum BOSS_STAGE_ONE_TYPE
+{
+	BOSS_STAGE_ONE_NORMAL,
+	BOSS_STAGE_ONE_BOMB,
+	BOSS_STAGE_ONE_TYPE_END
+};
+
+enum LAZER_TYPE
+{
+	VERTICAL,
+	HORIZONTAL,
+	LAZER_TYPE_END
+};
+
+enum DOOR_TYPE
+{
+	KICKED,
+	OPEN,
+	CLOSE,
+	DOOR_TYPE_END,
+};
+
+enum ATTACK_TYPE
+{
+	NORMAL_ATTACK,
+	THUNDER_BREATHING_ATTACK,
+	ATTACK_TYPE_END,
+};
+
+enum BOSS_STATUS
+{
+	BOSS_NO_HEAD_DEAD_BODY_RIGHT,
+	BOSS_NO_HEAD_DEAD_BODY_LEFT,
+	BOSS_DEAD_BODY_LEFT,
+	BOSS_DEAD_BODY_RIGHT,
+	BOSS_LAY_DOWN_LEFT,
+	BOSS_LAY_DOWN_RIGHT,
+	BOSS_DEAD_CRAWL_RIGHT,
+	BOSS_DEAD_CRAWL_LEFT,
+	BOSS_DEAD_SCENE,
+	BOSS_IN_PATTERN_LEFT,
+	BOSS_IN_PATTERN_RIGHT,
+	BOSS_OUT_PATTERN_LEFT,
+	BOSS_OUT_PATTERN_RIGHT,
+	BOSS_TELEPORT_APPEAR_TOP_LEFT,
+	BOSS_TELEPORT_APPEAR_TOP_RIGHT,
+	BOSS_TELEPORT_APPEAR_GROUND_LEFT,
+	BOSS_TELEPORT_APPEAR_GROUND_RIGHT,
+	BOSS_TELEPORT_DISAPPEAR_TOP_LEFT,
+	BOSS_TELEPORT_DISAPPEAR_TOP_RIGHT,
+	BOSS_TELEPORT_DISAPPEAR_GROUND_LEFT,
+	BOSS_TELEPORT_DISAPPEAR_GROUND_RIGHT,
+	BOSS_TAKE_OUT_GUN_LEFT,
+	BOSS_SHOOT_GUN_LEFT,
+	BOSS_TAKE_OUT_GUN_RIGHT,
+	BOSS_SHOOT_GUN_RIGHT,
+	BOSS_JUMP_LEFT, // -> 이쪽방향으로 점프
+	BOSS_JUMP_RIGHT, // <- 이쪽방향으로 점프
+	BOSS_GRAB_LEFT,
+	BOSS_GRAB_RIGHT,
+	BOSS_WALL_JUMP_LEFT, // <- 이쪽방향으로 점프
+	BOSS_WALL_JUMP_RIGHT,
+	BOSS_DISAPPEAR,
+	BOSS_RECOVER_LEFT,
+	BOSS_RECOVER_RIGHT,
+	BOSS_IDLE_LEFT,
+	BOSS_IDLE_RIGHT,
+	BOSS_DRAW_GUN_LEFT,
+	BOSS_DRAW_GUN_RIGHT,
+	BOSS_AIM_LEFT,
+	BOSS_AIM_RIGHT,
+	BOSS_SHOOT,
+	BOSS_HURT,
+	BOSS_RECOVERY,
+	BOSS_STATUS_END
+};
+
+enum HIGHLIGHT_TYPE
+{
+	HIGHLIGHT_PAIRING,
+	HIGHLIGHT_CLIMBING,
+	ITEM_HIT_HIGHLIGHT,
+	HIGHLIGHT_END
+};
+
+enum TILE_TYPE
+{
+	SOLID_WALL_TILE,
+	CLIMB_WALL_TILE,
+	TILE_END,
+};
+
+enum CHANNELID
+{
+	REPLAY_EFFECT,
+	PLAYER_EFFECT,
+	REWIND_EFFECT,
+	BOSS_ATTACK_SOUND_EFFECT,
+	BOSS_SPEAK_SOUND_EFFECT,
+	SOUND_EFFECT,
+	EXPLOSION_EFFECT,
+	SLOW_MOTION_EFFECT,
+	BULLET_PAIRING_EFFECT,
+	GANGSTER_ATTACK_EFFECT,
+	GRUNT_ATTACK_EFFECT,
+	POMP_ATTACK_EFFECT,
+	ENEMY_DEAD_EFFECT,
+	SWORD_EFFECT,
+	MOUSE_EFFECT,
+
+	SOUND_BGM,
+	
+	MAXCHANNEL
+};
+
+enum LINE_TYPE
+{
+	NORMAL,
+	SOLID,
+	LINE_TYPE_END
+};
+
+enum ITEM_TYPE
+{
+	ITEM_EXPLOSIVE,
+	ITEM_KNIFE,
+	ITEM_TYPE_END,
+};
+
+enum SMOKE_TYPE
+{
+	SMOKE_PICK_TYPE,
+	SMOKE_THROW_TYPE,
+	SMOKE_TYPE_END
+};
+
+enum EXPLOSIVE_TYPE
+{
+	EXPLOSIVE_PICK_TYPE,
+	EXPLOSIVE_THROW_TYPE,
+	EXPLOSIVE_TYPE_END
+};
+
+
+enum OBJ_ID
+{
+	OBJ_ID_SAMURAI,
+	OBJ_ID_BIG_EXPLOSION,
+	OBJ_ID_TILE,
+	OBJ_ID_DOOR,
+	OBJ_ID_BLOOD,
+	OBJ_ID_EXPLOSIVE,
+	OBJ_ID_LAZER,
+	OBJ_ID_SMOKE,
+	OBJ_ID_EXPLOSIVE_THROW,
+	OBJ_ID_SMOKE_THROW,
+	OBJ_ID_OIL_DRUM,
+
+	OBJ_ID_ENEMY,
+	OBJ_ID_BOSS,
+	OBJ_ID_BULLET,
+	OBJ_ID_BOSS_BULLET,
+	OBJ_ID_GERNADE,
+	OBJ_ID_BULLET_EFFECT,
+	OBJ_ID_PLAYER,
+	OBJ_ID_EXPLOSION,
+	OBJ_ID_EFFECT,
+	OBJ_ID_BOSS_HEAD,
+	OBJ_ID_SKILL_EFFECT,
+	OBJ_ID_MOUSE,
+	OBJ_ID_END
+};
+
+enum SCENE_ID
+{
+	SC_MAIN_MENU,
+	SC_STAGE_01,	// 벽력일섬 일반 + 튜토리얼
+	SC_STAGE_02,	// 선타기
+	SC_STAGE_03,	// 벽타기 및 벽력일섬 (특수)
+	SC_STAGE_04,	// 벽력일섬 필살기
+	SC_BOSS_01,
+	SC_BOSS_02,
+	SC_ENDING,
+	SC_REPLAY,
+	SC_END
+};
+
+
+enum ENEMY_TYPE
+{
+	STAY_TYPE,
+	WALK_TYPE,
+	ENEMY_TYPE_END
+};
+
+enum OBJ_TOP_DOWN_STATUS
+{
+	TOP,
+	DOWN,
+	TOP_DOWN_STATUS,
+};
+
+enum OBJ_STATUS
+{
+	SLASH,
+	THUNDER_BREATHING_HIT,
+	NO_DEAD,
+	WALK,
+	DEAD,
+	FLIP,
+	RELOAD,
+	FIRE,
+	CHASE,
+	TURN,
+
+	LAY_DOWN,
+	LAY_DOWN_START,
+	LAY_DOWN_MIDDLE,
+	THUNDER_BREATHING_PROCESS,
+	WALL_GRAB,
+	DOOR_KICK,
+	IDLE,
+	IDLE_TO_RUN,
+	RUN,
+	RUN_TO_IDLE,
+	IDLE_TO_SNEAK,
+	ROLL,
+	CROUCH,
+	JUMP,
+	FALL,
+	ATTACK,
+	THUNDER_BREATHING,
+	DOWN_JUMP,
+	OBJ_STATUS_END
+};
+
+enum OBJ_DIR
+{
+	LEFT,
+	RIGHT,
+	OBJ_DIR_END
+};
+
+typedef struct tagFrame
+{
+	int iFrameStart;
+	int iFrameEnd;
+	int iMotion;
+	DWORD dwSpeed;
+	DWORD dwTime;
+} FRAME;
+
+typedef struct tagInfo
+{
+	float fX;
+	float fY;
+	float fCX;
+	float fCY;
+} INFO;
+
+enum MOUSE_DIRECTION
+{
+	MOUSE_DIRECTION_LEFT,
+	MOUSE_DIRECTION_RIGHT,
+	MOUSE_DIRECTION_END
+};
+
+
+
+typedef struct tagLinePoint
+{
+	float fX;
+	float fY;
+	tagLinePoint() { ZeroMemory(this, sizeof(tagLinePoint)); }
+	tagLinePoint(float _fX, float _fY) : fX(_fX), fY(_fY) {}
+} LINEPOINT;
+
+typedef struct tagLine
+{
+	tagLinePoint tLeft;
+	tagLinePoint tRight;
+	
+	tagLine() { ZeroMemory(this, sizeof(tagLine)); }
+	tagLine(tagLinePoint& _tLeft, tagLinePoint& _tRight) : tLeft(_tLeft), tRight(_tRight) {}
+} LINE;
+
+typedef struct tagStoredLineData
+{
+	tagLinePoint tLeft;
+	tagLinePoint tRight;
+	LINE_TYPE eLineType;
+	tagStoredLineData() { ZeroMemory(this, sizeof(tagStoredLineData)); }
+	tagStoredLineData(tagLinePoint& _tLeft, tagLinePoint& _tRight, LINE_TYPE _eLineType) : tLeft(_tLeft), tRight(_tRight), eLineType(_eLineType) {}
+
+} STORED_LINE_DATA;
+
+typedef struct tagThunderBreathingInfo
+{
+	float m_fThunderBreathingX0;
+	float m_fThunderBreathingY0;
+	float m_fThunderBreathingX1;
+	float m_fThunderBreathingY1;
+	float m_fThunderBreathingScope;
+	OBJ_DIR m_eThunderBreathingDir;
+	OBJ_TOP_DOWN_STATUS m_eThunderBreathingTopDown;
+
+	float Get_Next_Y(float _fX)
+	{
+		return ((m_fThunderBreathingScope) * (_fX - m_fThunderBreathingX0)) + (m_fThunderBreathingY0);
+	}
+
+} THUNDER_BREATHING_INFO;
+
+
+// 잔상을 위해 사용
+typedef struct tagAfterImageInfo
+{
+	float fX;
+	float fY;
+	float fCX;
+	float fCY;
+	
+	int iFrameStart;
+	int iMotion;
+
+	OBJ_DIR m_eObjDir;
+	TCHAR* m_pFrameKey;
+	int iLimitNumber;
+} AFTER_IMAGE_INFO;
+
+template<typename T>
+void Safe_Delete(T& Temp)
+{
+	if (Temp)
+	{
+		delete Temp;
+		Temp = nullptr;
+	}
+}
+
+struct Vec2
+{
+	float fX;
+	float fY;
+};
+
+extern HWND g_hWnd;
+extern int iLimitFrameTime;

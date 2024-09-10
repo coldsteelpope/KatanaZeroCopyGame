@@ -1,0 +1,721 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00. MainGame">
+      <UniqueIdentifier>{b9f80c8c-ee0c-4f25-8310-b9e899a2f622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj">
+      <UniqueIdentifier>{9690c56d-5fec-4489-a8ac-c23f7225c16e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Headers">
+      <UniqueIdentifier>{6621147e-b71d-45f1-8cc8-c0856cd9bc5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. Player">
+      <UniqueIdentifier>{3d9e5686-db4f-4097-b724-b923d6b0ceed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Design">
+      <UniqueIdentifier>{4c82c31e-35bd-48d1-af68-ec7fa3bb389c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Design\00. AbstractFactory">
+      <UniqueIdentifier>{3bc54ea4-a481-4a84-8b2b-fb17d9cd01fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mgr">
+      <UniqueIdentifier>{722b443a-3f97-4b4e-a28c-e3e93f7a2d95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mgr\00. SceneMgr">
+      <UniqueIdentifier>{5a98c2da-cca6-4f1a-b838-5d94f913b3da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Scene">
+      <UniqueIdentifier>{3503a297-d08d-4555-a6f0-909df57d36b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Scene\00. MainMenuScene">
+      <UniqueIdentifier>{d33f5187-f34a-47b0-9c3e-a8bce6e3dd4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mgr\01. BmpMgr">
+      <UniqueIdentifier>{fa03fa6e-a075-4c00-8ea9-acfcf72a41b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mgr\01. BmpMgr\00. MyBmp">
+      <UniqueIdentifier>{6bd14403-fb9d-4ccc-b5bf-723a3bc0d4e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mgr\02. ObjMgr">
+      <UniqueIdentifier>{26fbecf6-1364-4efe-9cb9-28591b3264b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mgr\03. KeyMgr">
+      <UniqueIdentifier>{f82c8d8d-b4d7-4046-a77e-4ac8c9935199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mgr\04. MouseMgr">
+      <UniqueIdentifier>{7722a2ee-726f-4742-9cab-1cf8250f8e5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02. Effect">
+      <UniqueIdentifier>{0294e24e-259e-4f41-9a12-a56c1cb15fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mgr\05. LineMgr">
+      <UniqueIdentifier>{79a83ac3-2797-4c2e-9f57-2135247e2011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mgr\06. TileMgr">
+      <UniqueIdentifier>{7b99191a-415c-46da-8943-611c282b061f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mgr\05. LineMgr\00. Line">
+      <UniqueIdentifier>{4a54665f-3d26-4da7-bd26-6a06cbaa528e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mgr\07. ScrollMgr">
+      <UniqueIdentifier>{f1ed95b5-4ec3-4652-a93c-e995b195682e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mgr\08. TimeSlowMgr">
+      <UniqueIdentifier>{9da9e854-3f29-4364-a852-ffa3a754c2ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mgr\09. Camera">
+      <UniqueIdentifier>{116d9b6e-5079-49ec-bf52-3ead768805b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mgr\10. Memento">
+      <UniqueIdentifier>{8b277429-f392-4e98-bf95-aab53a757a38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mgr\10. Memento\00. PlayerCareTaker">
+      <UniqueIdentifier>{18fa2ec2-8a26-4203-a966-90aa69dc12e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mgr\10. Memento\01. CameraCareTaker">
+      <UniqueIdentifier>{2922809e-ccc3-45f4-af02-9d13e073d89e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mgr\10. Memento\02. EffectCareTaker">
+      <UniqueIdentifier>{12acebe3-181c-41a3-82c7-76882087bca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mgr\11. TimeRewindMgr">
+      <UniqueIdentifier>{7c0a9928-f016-4586-b18f-976de03b1fec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\03. Tile">
+      <UniqueIdentifier>{547c5eb4-f9fb-4a19-9a66-8fe02482b5e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mgr\12. CollisionMgr">
+      <UniqueIdentifier>{b6aafecd-87e7-474e-bf00-0df901028602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\04. Enemy">
+      <UniqueIdentifier>{2c927234-2496-4430-a2e5-d7da559c199c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\05. Bullet">
+      <UniqueIdentifier>{655f1ae7-4dbb-4d0d-b77e-18db3349313f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\06. Item">
+      <UniqueIdentifier>{a08aa65f-0868-489c-8e02-fe51ca279da4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Scene\01. Stage01">
+      <UniqueIdentifier>{8eb8df82-509a-45b3-a20f-adcb7a449757}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Scene\02. Stage02">
+      <UniqueIdentifier>{9565feab-ed0f-48bf-a665-34101dfa2d9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mgr\10. Memento\03. EnemyCareTaker">
+      <UniqueIdentifier>{4514d026-eb75-413c-8143-12164f2fc85d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mgr\10. Memento\04. ItemCareTaker">
+      <UniqueIdentifier>{b8e27e7d-de71-4c5a-b24c-7e7713292675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Scene\99. Replay">
+      <UniqueIdentifier>{01d54f10-7679-465b-bc16-527317a9aa0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mgr\13. ReplayMgr">
+      <UniqueIdentifier>{023abbf7-82f6-4f2f-bc58-66385cc15f01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\07. UI">
+      <UniqueIdentifier>{da9c6ad5-b5d0-40b8-b05c-591b9ade5fd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mgr\14. UIMgr">
+      <UniqueIdentifier>{82240864-96a4-401c-8f5d-62f7f2e76ee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mgr\15 TimeAttackMgr">
+      <UniqueIdentifier>{f007c234-35c8-4e38-b004-b3eea3a9cb29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mgr\16. SoundMgr">
+      <UniqueIdentifier>{93814336-d6f0-4e2c-82f5-3104961005fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Scene\03. Stage03">
+      <UniqueIdentifier>{e6de09ee-a8c8-42fc-826e-77c3eacc8a1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\08. Boss">
+      <UniqueIdentifier>{87a57791-c4af-43f6-9fa8-d4c216fdfcb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mgr\17. HighlightMgr">
+      <UniqueIdentifier>{d732fda9-7056-4884-a95a-9c9f2bb3268e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\09. Blood">
+      <UniqueIdentifier>{bb70c16b-87c9-469c-b6cf-552748712a29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\10. Door">
+      <UniqueIdentifier>{dc30bab6-da47-43d5-9a9b-595b82e3d91a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Scene\05. BossStage01">
+      <UniqueIdentifier>{939cf749-ccc1-4e19-9358-7c81f96cfc6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Scene\06. BossStage02">
+      <UniqueIdentifier>{c8aa77b7-9869-4766-b549-ae96db2a73b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Scene\04. Stage04">
+      <UniqueIdentifier>{c5ff5caf-b731-498d-a1d6-fb50be81c9f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Scene\07. Ending">
+      <UniqueIdentifier>{2b4f4493-4e14-4935-99df-84c5d5b4168d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mgr\10. Memento\05. DoorCareTaker">
+      <UniqueIdentifier>{e0a90532-1677-4516-8ae5-5df3153febf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mgr\10. Memento\06. BloodCareTaker">
+      <UniqueIdentifier>{4642a5e5-e8c9-484f-9c42-88008269258b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mgr\10. Memento\07. BossCareTaker">
+      <UniqueIdentifier>{7b95351b-0191-4153-9b96-6e0e077061ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mgr\18. AttackMgr">
+      <UniqueIdentifier>{7d3cf3f3-a794-4ca9-bbc5-799b9338d85a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mgr\19. ThunderBreathingMgr">
+      <UniqueIdentifier>{db0627ad-5312-45bf-9254-d3adde58fd38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mgr\20. BulletPairingHitMgr">
+      <UniqueIdentifier>{73da4893-c887-4032-91e4-9cffe4c72876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mgr\10. Memento\08. BulletCareTaker">
+      <UniqueIdentifier>{81c9f156-2396-4d4a-a78b-b2f870405d15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\11. SkillEffect">
+      <UniqueIdentifier>{651dc0e3-86dc-4b27-accf-0220423c8d89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Mouse">
+      <UniqueIdentifier>{2a5a462f-7b1c-499e-bdcd-2172a8b3d8b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mgr\21. ComboMgr">
+      <UniqueIdentifier>{992d6a66-d788-4ff5-af0d-b689dde0252f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>99. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="KatanaZero.h">
+      <Filter>99. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>00. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>99. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>99. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>01. Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01. Obj\00. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>02. Design\00. AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>03. Mgr\00. SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>04. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BmpMgr.h">
+      <Filter>03. Mgr\01. BmpMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MyBmp.h">
+      <Filter>03. Mgr\01. BmpMgr\00. MyBmp</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>03. Mgr\02. ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>03. Mgr\03. KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>01. Obj\01. Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseMgr.h">
+      <Filter>03. Mgr\04. MouseMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>01. Obj\02. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="PictureSize.h">
+      <Filter>99. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>03. Mgr\05. LineMgr\00. Line</Filter>
+    </ClInclude>
+    <ClInclude Include="LineMgr.h">
+      <Filter>03. Mgr\05. LineMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollMgr.h">
+      <Filter>03. Mgr\07. ScrollMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeSlowMgr.h">
+      <Filter>03. Mgr\08. TimeSlowMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>03. Mgr\09. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Memento.h">
+      <Filter>03. Mgr\10. Memento</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCareTaker.h">
+      <Filter>03. Mgr\10. Memento\00. PlayerCareTaker</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraCareTaker.h">
+      <Filter>03. Mgr\10. Memento\01. CameraCareTaker</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectCareTaker.h">
+      <Filter>03. Mgr\10. Memento\02. EffectCareTaker</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraMemento.h">
+      <Filter>03. Mgr\10. Memento\01. CameraCareTaker</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeRewindMgr.h">
+      <Filter>03. Mgr\11. TimeRewindMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>01. Obj\03. Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>03. Mgr\12. CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Gangster.h">
+      <Filter>01. Obj\04. Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Grunt.h">
+      <Filter>01. Obj\04. Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>01. Obj\05. Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosive.h">
+      <Filter>01. Obj\06. Item</Filter>
+    </ClInclude>
+    <ClInclude Include="OilDrum.h">
+      <Filter>01. Obj\06. Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Smoke.h">
+      <Filter>01. Obj\06. Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>01. Obj\02. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage01.h">
+      <Filter>04. Scene\01. Stage01</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage02.h">
+      <Filter>04. Scene\02. Stage02</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyCareTaker.h">
+      <Filter>03. Mgr\10. Memento\03. EnemyCareTaker</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyMemento.h">
+      <Filter>03. Mgr\10. Memento\03. EnemyCareTaker</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemCareTaker.h">
+      <Filter>03. Mgr\10. Memento\04. ItemCareTaker</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemMemento.h">
+      <Filter>03. Mgr\10. Memento\04. ItemCareTaker</Filter>
+    </ClInclude>
+    <ClInclude Include="Replay.h">
+      <Filter>04. Scene\99. Replay</Filter>
+    </ClInclude>
+    <ClInclude Include="ReplayMgr.h">
+      <Filter>03. Mgr\13. ReplayMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Battery.h">
+      <Filter>01. Obj\07. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>01. Obj\07. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>01. Obj\07. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMgr.h">
+      <Filter>03. Mgr\14. UIMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod.h" />
+    <ClInclude Include="fmod.hpp" />
+    <ClInclude Include="fmod_codec.h" />
+    <ClInclude Include="fmod_dsp.h" />
+    <ClInclude Include="fmod_errors.h" />
+    <ClInclude Include="fmod_memoryinfo.h" />
+    <ClInclude Include="fmod_output.h" />
+    <ClInclude Include="SoundMgr.h">
+      <Filter>03. Mgr\16. SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage03.h">
+      <Filter>04. Scene\03. Stage03</Filter>
+    </ClInclude>
+    <ClInclude Include="BossStage01.h">
+      <Filter>04. Scene\05. BossStage01</Filter>
+    </ClInclude>
+    <ClInclude Include="BossStage02.h">
+      <Filter>04. Scene\06. BossStage02</Filter>
+    </ClInclude>
+    <ClInclude Include="Pomp.h">
+      <Filter>01. Obj\04. Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMgr.h">
+      <Filter>03. Mgr\06. TileMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>01. Obj\08. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="HighlightMgr.h">
+      <Filter>03. Mgr\17. HighlightMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Blood.h">
+      <Filter>01. Obj\09. Blood</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>01. Obj\10. Door</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss2.h">
+      <Filter>01. Obj\08. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Lazer.h">
+      <Filter>01. Obj\08. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="HitEffect.h">
+      <Filter>01. Obj\02. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Gernade.h">
+      <Filter>01. Obj\08. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="BossBullet.h">
+      <Filter>01. Obj\08. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingScene.h">
+      <Filter>04. Scene\07. Ending</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuScene.h">
+      <Filter>04. Scene\00. MainMenuScene</Filter>
+    </ClInclude>
+    <ClInclude Include="DoorCareTaker.h">
+      <Filter>03. Mgr\10. Memento\05. DoorCareTaker</Filter>
+    </ClInclude>
+    <ClInclude Include="BloodCareTaker.h">
+      <Filter>03. Mgr\10. Memento\06. BloodCareTaker</Filter>
+    </ClInclude>
+    <ClInclude Include="BossCareTaker.h">
+      <Filter>03. Mgr\10. Memento\07. BossCareTaker</Filter>
+    </ClInclude>
+    <ClInclude Include="DoorMemento.h">
+      <Filter>03. Mgr\10. Memento\05. DoorCareTaker</Filter>
+    </ClInclude>
+    <ClInclude Include="BloodMemento.h">
+      <Filter>03. Mgr\10. Memento\06. BloodCareTaker</Filter>
+    </ClInclude>
+    <ClInclude Include="BossMemento.h">
+      <Filter>03. Mgr\10. Memento\07. BossCareTaker</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletEffect.h">
+      <Filter>01. Obj\02. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="BigExplosion.h">
+      <Filter>01. Obj\02. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="BossHead.h">
+      <Filter>01. Obj\08. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackMgr.h">
+      <Filter>03. Mgr\18. AttackMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ThunderBreathingMgr.h">
+      <Filter>03. Mgr\19. ThunderBreathingMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Samurai.h">
+      <Filter>01. Obj\02. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletPairingHitMgr.h">
+      <Filter>03. Mgr\20. BulletPairingHitMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletCareTaker.h">
+      <Filter>03. Mgr\10. Memento\08. BulletCareTaker</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletMemento.h">
+      <Filter>03. Mgr\10. Memento\08. BulletCareTaker</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEffect.h">
+      <Filter>01. Obj\11. SkillEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="ComboMgr.h">
+      <Filter>03. Mgr\21. ComboMgr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="KatanaZero.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="KatanaZero.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KatanaZero.cpp">
+      <Filter>00. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>99. Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>01. Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>03. Mgr\00. SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>04. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BmpMgr.cpp">
+      <Filter>03. Mgr\01. BmpMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MyBmp.cpp">
+      <Filter>03. Mgr\01. BmpMgr\00. MyBmp</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>03. Mgr\02. ObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>03. Mgr\03. KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>01. Obj\01. Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseMgr.cpp">
+      <Filter>03. Mgr\04. MouseMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>01. Obj\02. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>03. Mgr\05. LineMgr\00. Line</Filter>
+    </ClCompile>
+    <ClCompile Include="LineMgr.cpp">
+      <Filter>03. Mgr\05. LineMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollMgr.cpp">
+      <Filter>03. Mgr\07. ScrollMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeSlowMgr.cpp">
+      <Filter>03. Mgr\08. TimeSlowMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>03. Mgr\09. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Memento.cpp">
+      <Filter>03. Mgr\10. Memento</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCareTaker.cpp">
+      <Filter>03. Mgr\10. Memento\00. PlayerCareTaker</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraCareTaker.cpp">
+      <Filter>03. Mgr\10. Memento\01. CameraCareTaker</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectCareTaker.cpp">
+      <Filter>03. Mgr\10. Memento\02. EffectCareTaker</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraMemento.cpp">
+      <Filter>03. Mgr\10. Memento\01. CameraCareTaker</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeRewindMgr.cpp">
+      <Filter>03. Mgr\11. TimeRewindMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>01. Obj\03. Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>03. Mgr\12. CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Gangster.cpp">
+      <Filter>01. Obj\04. Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Grunt.cpp">
+      <Filter>01. Obj\04. Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>01. Obj\05. Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosive.cpp">
+      <Filter>01. Obj\06. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="OilDrum.cpp">
+      <Filter>01. Obj\06. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Smoke.cpp">
+      <Filter>01. Obj\06. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>01. Obj\02. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage01.cpp">
+      <Filter>04. Scene\01. Stage01</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage02.cpp">
+      <Filter>04. Scene\02. Stage02</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyCareTaker.cpp">
+      <Filter>03. Mgr\10. Memento\03. EnemyCareTaker</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyMemento.cpp">
+      <Filter>03. Mgr\10. Memento\03. EnemyCareTaker</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemCareTaker.cpp">
+      <Filter>03. Mgr\10. Memento\04. ItemCareTaker</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemMemento.cpp">
+      <Filter>03. Mgr\10. Memento\04. ItemCareTaker</Filter>
+    </ClCompile>
+    <ClCompile Include="Replay.cpp">
+      <Filter>04. Scene\99. Replay</Filter>
+    </ClCompile>
+    <ClCompile Include="ReplayMgr.cpp">
+      <Filter>03. Mgr\13. ReplayMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Battery.cpp">
+      <Filter>01. Obj\07. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>01. Obj\07. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>01. Obj\07. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMgr.cpp">
+      <Filter>03. Mgr\14. UIMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>03. Mgr\16. SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage03.cpp">
+      <Filter>04. Scene\03. Stage03</Filter>
+    </ClCompile>
+    <ClCompile Include="BossStage01.cpp">
+      <Filter>04. Scene\05. BossStage01</Filter>
+    </ClCompile>
+    <ClCompile Include="BossStage02.cpp">
+      <Filter>04. Scene\06. BossStage02</Filter>
+    </ClCompile>
+    <ClCompile Include="Pomp.cpp">
+      <Filter>01. Obj\04. Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMgr.cpp">
+      <Filter>03. Mgr\06. TileMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>01. Obj\08. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="HighlightMgr.cpp">
+      <Filter>03. Mgr\17. HighlightMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Blood.cpp">
+      <Filter>01. Obj\09. Blood</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>01. Obj\10. Door</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss2.cpp">
+      <Filter>01. Obj\08. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Lazer.cpp">
+      <Filter>01. Obj\08. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="HitEffect.cpp">
+      <Filter>01. Obj\02. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Gernade.cpp">
+      <Filter>01. Obj\08. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="BossBullet.cpp">
+      <Filter>01. Obj\08. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingScene.cpp">
+      <Filter>04. Scene\07. Ending</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuScene.cpp">
+      <Filter>04. Scene\00. MainMenuScene</Filter>
+    </ClCompile>
+    <ClCompile Include="DoorCareTaker.cpp">
+      <Filter>03. Mgr\10. Memento\05. DoorCareTaker</Filter>
+    </ClCompile>
+    <ClCompile Include="BloodCareTaker.cpp">
+      <Filter>03. Mgr\10. Memento\06. BloodCareTaker</Filter>
+    </ClCompile>
+    <ClCompile Include="BossCareTaker.cpp">
+      <Filter>03. Mgr\10. Memento\07. BossCareTaker</Filter>
+    </ClCompile>
+    <ClCompile Include="DoorMemento.cpp">
+      <Filter>03. Mgr\10. Memento\05. DoorCareTaker</Filter>
+    </ClCompile>
+    <ClCompile Include="BloodMemento.cpp">
+      <Filter>03. Mgr\10. Memento\06. BloodCareTaker</Filter>
+    </ClCompile>
+    <ClCompile Include="BossMemento.cpp">
+      <Filter>03. Mgr\10. Memento\07. BossCareTaker</Filter>
+    </ClCompile>
+    <ClCompile Include="BigExplosion.cpp">
+      <Filter>01. Obj\02. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletEffect.cpp">
+      <Filter>01. Obj\02. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="BossHead.cpp">
+      <Filter>01. Obj\08. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackMgr.cpp">
+      <Filter>03. Mgr\18. AttackMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ThunderBreathingMgr.cpp">
+      <Filter>03. Mgr\19. ThunderBreathingMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Samurai.cpp">
+      <Filter>01. Obj\02. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletPairingHitMgr.cpp">
+      <Filter>03. Mgr\20. BulletPairingHitMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletCareTaker.cpp">
+      <Filter>03. Mgr\10. Memento\08. BulletCareTaker</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletMemento.cpp">
+      <Filter>03. Mgr\10. Memento\08. BulletCareTaker</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEffect.cpp">
+      <Filter>01. Obj\11. SkillEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="ComboMgr.cpp">
+      <Filter>03. Mgr\21. ComboMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01. Obj\00. Player</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fmodex.dll" />
+    <None Include="fmodexL.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="fmodex_vc.lib" />
+  </ItemGroup>
+</Project>
