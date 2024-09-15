@@ -28,6 +28,11 @@ Deque 자료구조를 이용해 재생, 일시정지, 되감기 기능이 담겨
 ![backPlay-ezgif com-video-to-gif-converter (online-video-cutter com)](https://github.com/user-attachments/assets/40532201-315e-454f-93e0-b55649e65e0c)
 
 ### 3. 카메라 줌인 줌아웃
+카메라 줌인/줌아웃 기능을 StretchBlt 함수를 활용해 구현했습니다. 
+이 기능을 Highlight Manager와 결합하여 "하이라이트" 효과를 추가함으로써, 더욱 극적인 분위기를 연출하고자 했습니다.
 
+![highlight1](https://github.com/user-attachments/assets/cd98c1ce-9fb7-4461-a1aa-0e510120b30b)
+![highlight2](https://github.com/user-attachments/assets/fe0af3c5-311d-4d36-a91e-e8ba92e121f8)
+![highlight3](https://github.com/user-attachments/assets/0d730a09-1cb9-40d9-8a02-6f1b047cafdb)
 
 ### 4. 벽력일섬!
