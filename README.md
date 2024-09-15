@@ -16,6 +16,7 @@
 
 ## 구현 컨텐츠 및 기능 설명
 ### 1. 시간 되돌리기
+객체를 이전 상태로 되돌리는 메멘토 패턴을 이용해 시간 되돌리기 컨텐츠를 구현했습니다.
 ![timesleep1-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/571fe536-851d-44ad-a502-11e5b81ecef9)
 ![timesleep2-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/7d0f720e-561b-4d74-88b7-17714f354eaf)
 
