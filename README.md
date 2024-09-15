@@ -17,11 +17,15 @@
 ## 구현 컨텐츠 및 기능 설명
 ### 1. 시간 되돌리기
 객체를 이전 상태로 되돌리는 메멘토 패턴을 이용해 시간 되돌리기 컨텐츠를 구현했습니다.
+
 ![timesleep1-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/571fe536-851d-44ad-a502-11e5b81ecef9)
 ![timesleep2-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/7d0f720e-561b-4d74-88b7-17714f354eaf)
 
 ### 2. 간단한 동영상 플레이어
+Deque 자료구조를 이용해 재생, 일시정지, 되감기 기능이 담겨있는 간단한 동영상 플레이어를 구현했습니다.
 
+![replayPlay-ezgif com-video-to-gif-converter (online-video-cutter com)](https://github.com/user-attachments/assets/7debf1cc-ae56-4947-86ba-5b0a1deaade3)
+![backPlay-ezgif com-video-to-gif-converter (online-video-cutter com)](https://github.com/user-attachments/assets/40532201-315e-454f-93e0-b55649e65e0c)
 
 ### 3. 카메라 줌인 줌아웃
 
