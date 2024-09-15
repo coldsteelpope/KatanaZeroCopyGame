@@ -16,7 +16,8 @@
 
 ## 구현 컨텐츠 및 기능 설명
 ### 1. 시간 되돌리기
-
+![timesleep1-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/571fe536-851d-44ad-a502-11e5b81ecef9)
+![timesleep2-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/7d0f720e-561b-4d74-88b7-17714f354eaf)
 
 ### 2. 간단한 동영상 플레이어
 
