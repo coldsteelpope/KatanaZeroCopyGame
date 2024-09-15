@@ -6,11 +6,7 @@
 스테이지는 총 5개의 Stage로 구성되어 있습니다.
 
 ### Normal Stage 
-![stage1gif](https://github.com/user-attachments/assets/24af90bf-78e5-4a5f-a10e-561a5405509d)
-
-![stage2gif](https://github.com/user-attachments/assets/f6f5b33d-0be3-4f34-bc00-f34f12da8a61)
-
-![stage3gif](https://github.com/user-attachments/assets/6feb7e01-1df0-41d2-b284-c42c58779067)
+![stage1gif](https://github.com/user-attachments/assets/24af90bf-78e5-4a5f-a10e-561a5405509d) ![stage2gif](https://github.com/user-attachments/assets/f6f5b33d-0be3-4f34-bc00-f34f12da8a61) ![stage3gif](https://github.com/user-attachments/assets/6feb7e01-1df0-41d2-b284-c42c58779067)
 
 ### Boss Stage
 ![stage4gif](https://github.com/user-attachments/assets/3beae129-3f16-479b-9200-9cb043f64743)
