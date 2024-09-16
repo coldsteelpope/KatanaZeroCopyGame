@@ -11,7 +11,9 @@
 ![stage3gif](https://github.com/user-attachments/assets/6feb7e01-1df0-41d2-b284-c42c58779067)
 
 ### Boss Stage
+#### Boss Stage1
 ![stage4gif](https://github.com/user-attachments/assets/3beae129-3f16-479b-9200-9cb043f64743)
+#### Boss Stage2
 ![stage5gif](https://github.com/user-attachments/assets/4a6227ef-26c2-497d-88ee-4c9c8566e0af)
 
 ## 구현 컨텐츠 및 기능 설명
