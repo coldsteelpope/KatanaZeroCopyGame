@@ -33,6 +33,9 @@
 #### 3. 기관총 발사
 ![BossStage2Pattern3](https://github.com/user-attachments/assets/b80a2dd4-152f-45f3-a9ba-a874f5e766b2)
 
+플레이어가 기관총 총알을 공격할 때, 총알을 반사하는 패링이 발동됩니다.
+![pairingGif](https://github.com/user-attachments/assets/d5789589-bc7d-4f8f-9bb8-a31fcbd7de0e)
+
 ## 구현 컨텐츠 및 기능 설명
 ### 1. 시간 되돌리기
 객체를 이전 상태로 되돌리는 메멘토 패턴을 이용해 시간 되돌리기 컨텐츠를 구현했습니다.
