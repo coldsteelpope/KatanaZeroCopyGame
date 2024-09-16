@@ -36,3 +36,5 @@ Deque 자료구조를 이용해 재생, 일시정지, 되감기 기능이 담겨
 ![highlight3](https://github.com/user-attachments/assets/0d730a09-1cb9-40d9-8a02-6f1b047cafdb)
 
 ### 4. 벽력일섬!
+![buk1](https://github.com/user-attachments/assets/b90c604f-12d5-4a93-886d-4c47e8f70ff5)
+![buk2](https://github.com/user-attachments/assets/a91741b1-4446-48f3-b4d0-a4611333a310)
