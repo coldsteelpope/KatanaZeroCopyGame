@@ -16,7 +16,7 @@
 보스 스테이지는 총 2개로 구성되며, 각 스테이지마다 보스의 체력은 3입니다.
 
 #### Boss Stage1
-Boss Stage 1에서는 적들이 랜덤으로 4개의 문 중 하나에서 일정한 시간 간격으로 생성됩니다.
+Boss Stage 1에서는 적들이 4개의 문 중 하나에서, 랜덤으로 일정한 시간 간격으로 생성됩니다.
 
 ![stage4gif](https://github.com/user-attachments/assets/3beae129-3f16-479b-9200-9cb043f64743)
 
