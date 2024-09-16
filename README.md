@@ -16,6 +16,7 @@
 
 #### Boss Stage1 보스 패턴
 보스가 좌측 또는 우측에 랜덤하게 등장하여 캐릭터를 조준한 후 레이저를 발사합니다. 
+
 레이저 발사 후 보스는 다시 좌측 또는 우측으로 랜덤하게 이동하여 다음 공격을 준비합니다.
 ![BossStage1Pattern1](https://github.com/user-attachments/assets/95857d29-a977-4191-b4ad-c00eeada3b43)
 
