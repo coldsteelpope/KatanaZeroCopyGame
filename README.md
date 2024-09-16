@@ -21,6 +21,16 @@
 #### Boss Stage2
 ![stage5gif](https://github.com/user-attachments/assets/4a6227ef-26c2-497d-88ee-4c9c8566e0af)
 
+### Boss Stage2 보스 패턴
+#### 1. 폭탄 발사
+![BossStage2Pattern1](https://github.com/user-attachments/assets/40626d41-f381-4a42-b83e-83969c87f04e)
+
+#### 2. 레이저 발사
+![BossStage2Pattern2](https://github.com/user-attachments/assets/2bfd4488-4bce-406c-9698-81cfbbada552)
+
+#### 3. 기관총 발사
+![BossStage2Pattern3](https://github.com/user-attachments/assets/b80a2dd4-152f-45f3-a9ba-a874f5e766b2)
+
 ## 구현 컨텐츠 및 기능 설명
 ### 1. 시간 되돌리기
 객체를 이전 상태로 되돌리는 메멘토 패턴을 이용해 시간 되돌리기 컨텐츠를 구현했습니다.
