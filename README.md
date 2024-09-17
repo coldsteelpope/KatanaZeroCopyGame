@@ -8,9 +8,9 @@
 ### Normal Stage 
 일반 스테이지는 총 3개로 구성되어 있습니다.
 
-![stage1gif](https://github.com/user-attachments/assets/24af90bf-78e5-4a5f-a10e-561a5405509d) 
-![stage2gif](https://github.com/user-attachments/assets/f6f5b33d-0be3-4f34-bc00-f34f12da8a61) 
-![stage3gif](https://github.com/user-attachments/assets/6feb7e01-1df0-41d2-b284-c42c58779067)
+![main1](https://github.com/user-attachments/assets/d80cdf1a-f9ea-4838-af2c-0dab33c5335a)
+![main2](https://github.com/user-attachments/assets/2f68f863-d5d2-4801-b18d-ba29a8b57117)
+![main3](https://github.com/user-attachments/assets/bd0d8532-320d-4a4c-b6e6-014dfad4cc2e)
 
 ### Boss Stage
 보스 스테이지는 총 2개로 구성되며, 각 스테이지마다 보스의 체력은 3입니다.
